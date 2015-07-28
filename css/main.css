@@ -8,6 +8,7 @@ nav ul, footer ul {
     padding: 0px;
     list-style: none;
     font-weight: bold;
+	margin-left: 20px;
 }
 nav ul li, footer ul li {
     display: inline;
@@ -22,7 +23,7 @@ a:hover {
 }
 h1 {
     font-size: 3em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-family:'Algerian', 'Arial', 'Sans-Serif';
 }
 footer {
     border-top: 1px solid #d5d5d5;
@@ -44,4 +45,7 @@ border-width: 2px;
 padding-left:25px;
 padding-right:25px;
 font-family:'Lucida Sans Unicode', 'Lucida Grande', 'Sans-Serif';
+}
+.center{
+text-align:center;
 }
