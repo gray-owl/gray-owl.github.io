@@ -41,7 +41,7 @@ ul.posts li {
     list-style: none;
 }
 .blurb{
-/*background-color: #EBEBFF;*/
+background-color: white;
 border-style: solid;
 border-width: 2px;
 padding-left:25px;
