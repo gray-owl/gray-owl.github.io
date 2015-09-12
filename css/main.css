@@ -1,6 +1,6 @@
 body {
-    margin: 60px auto;
-    width: 70%;
+    margin: 30px auto;
+    width: 85%;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     background-color: #CDC9C9;
 }
@@ -23,7 +23,7 @@ a:hover {
     text-decoration: underline;
 }
 h1 {
-    font-size: 3em;
+    font-size: 4em;
     font-family:'Algerian', 'Arial', 'Sans-Serif';
 	padding: 0px;
 	border:0px;
@@ -44,8 +44,8 @@ ul.posts li {
 background-color: white;
 border-style: solid;
 border-width: 2px;
-padding-left:25px;
-padding-right:25px;
+padding-left:5%;
+padding-right:5%;
 font-family:'Lucida Sans Unicode', 'Lucida Grande', 'Sans-Serif';
 }
 .center{
@@ -58,6 +58,9 @@ text-align:center;
     float: right;
 	padding-left: 20px;
 	padding-right: 20px;
+}
+.floatLeft {
+    float: left;
 }
 hr{
 clear:both;
