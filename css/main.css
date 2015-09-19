@@ -65,6 +65,7 @@ text-align:center;
 }
 .floatLeft {
     float: left;
+	padding-right: 10px;
 }
 hr{
 clear:both;
