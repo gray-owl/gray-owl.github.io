@@ -1,8 +1,19 @@
+$(document).ready(function(){
+	$('.bxslider').bxSlider({
+  		adaptiveHeight: true,
+  		mode: 'fade'
+	});
+	$( document ).click(function() {
+		$( "#toggle" ).toggle( "highlight" );
+	});
+	$( "#actionButton" ).click(function() {
+		//alert("Here is some text!")
+		$( "#book" ).slideToggle( "slow" );
+		$("#actionButton").text("jQUERY VOO-DOO FOOL!!!!")
+	});
 
-$('.bxslider').bxSlider({
-  adaptiveHeight: true,
-  mode: 'fade'
 });
+
 
 function myFunction() {
     document.getElementById("demo").style.color = "red";
@@ -20,16 +31,4 @@ function myFunction() {
 
 
 
-$(document).ready(function(){
-	
-	$( document ).click(function() {
-		$( "#toggle" ).toggle( "highlight" );
-	});
-	
-	$( "#actionButton" ).click(function() {
-		//alert("Here is some text!")
-		$( "#book" ).slideToggle( "slow" );
-		$("#actionButton").text("jQUERY VOO-DOO FOOL!!!!")
-	});
 
-});
