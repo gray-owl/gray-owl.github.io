@@ -1,7 +1,13 @@
 $(document).ready(function(){
-	$('.bxslider').bxSlider({
+	/*$('.bxslider').bxSlider({
   		adaptiveHeight: true,
   		mode: 'fade'
+	});*/
+	$('#slider1').bxSlider({
+  		mode: 'fade',
+  		auto: true,
+  		autoControls: true,
+  		pause: 2000
 	});
 	$( document ).click(function() {
 		$( "#toggle" ).toggle( "highlight" );
