@@ -3,7 +3,7 @@ $(document).ready(function(){
   		adaptiveHeight: true,
   		mode: 'fade'
 	});*/
-	$('#slider1').bxSlider({
+	$('.bxslider').bxSlider({
   		mode: 'fade',
   		auto: true,
   		autoControls: true,
