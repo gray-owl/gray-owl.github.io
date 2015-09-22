@@ -88,7 +88,7 @@
 	}
 
 	$.fn.bxSlider = function(options){
-
+alert("Here is some text!");
 		if(this.length == 0) return this;
 
 		// support mutltiple elements
