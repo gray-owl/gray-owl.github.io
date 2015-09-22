@@ -3,12 +3,14 @@ $(document).ready(function(){
   		adaptiveHeight: true,
   		mode: 'fade'
 	});*/
+	alert("Here is some text!")
 	$('.bxslider').bxSlider({
-  		mode: 'fade',
+		mode: 'fade',
   		auto: true,
   		autoControls: true,
   		pause: 2000
 	});
+	alert("Here is some more text!")
 	$( document ).click(function() {
 		$( "#toggle" ).toggle( "highlight" );
 	});
