@@ -8,7 +8,7 @@ $(document).ready(function(){
 		mode: 'fade',
   		auto: true,
   		autoControls: true,
-  		pause: 3000
+  		pause: 4000
 	});
 
 	$( document ).click(function() {

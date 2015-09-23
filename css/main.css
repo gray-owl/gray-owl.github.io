@@ -78,4 +78,5 @@ IMG.centered {
 }
 aside{
 	display: block;
+	float: right;
 }
