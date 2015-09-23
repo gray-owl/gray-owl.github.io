@@ -4,10 +4,11 @@ $(document).ready(function(){
   		mode: 'fade'
 	});*/
 	$('.bxslider').bxSlider({
+		adaptiveHeight: true,
 		mode: 'fade',
   		auto: true,
   		autoControls: true,
-  		pause: 2000
+  		pause: 3000
 	});
 
 	$( document ).click(function() {
