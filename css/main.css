@@ -70,3 +70,8 @@ text-align:center;
 hr{
 clear:both;
 }
+
+IMG.centered {
+    display: block;
+    margin-left: auto;
+    margin-right: auto }
