@@ -58,6 +58,11 @@ text-align:center;
 	border:0px;
 	margin: 0px;
 }
+.vertCenter{
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
 .float {
     float: right;
 	padding-left: 20px;
@@ -78,5 +83,5 @@ IMG.centered {
 }
 aside{
 	float: right;
-	width: 60%;
+	width: 70%;
 	}
